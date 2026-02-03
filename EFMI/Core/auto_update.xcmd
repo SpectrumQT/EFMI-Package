@@ -1,0 +1,26 @@
+; This file is intended to be executed by XXMI Launcher as part of model importer update
+;
+; API
+;
+; delete - Removes file or folder with target path relative to installed model importer folder
+; Notes:
+; * Target path must be located in Core or ShaderFixes folders
+; * Explicit removal of entire Core or ShaderFixes folder is not allowed
+; * Non-existent path will be ignored
+; Example usage:
+; `delete = ShaderFixes\Test.txt` - Remove `ShaderFixes\Test.txt` file
+; `delete = Core\Test` - Remove `Core\Test` folder and its contents
+
+
+[PreInstall]
+; Do something BEFORE package update
+
+[PostInstall]
+; Do something AFTER package update
+
+[PreLaunch]
+; Do something BEFORE game launch
+delete = ShaderFixes\653c63ba4a73ca8b-vs_replace.bin
+delete = ShaderFixes\help.ini
+delete = ShaderFixes\help.hlsl
+
