@@ -6,7 +6,7 @@ To enable built-in debugger, remove ';' before 'include = Core/Debugger/Debugger
 Hunting Mode Hotkeys (NumPad):
 [0]: Toggle Hunting Mode (make sure to Enable Hunting in XXMI Launcher > Settings > EFMI)
 [+]: Reset hunting (reduces number of buffers/shaders to cycle)
-[F11]: Create Frame Dump
+[SHIFT]+[F11]: Create Frame Dump
 Hint: Lower resolution to lower framedump size
 
 Buffer Hunting (NumPad):

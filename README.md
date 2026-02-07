@@ -18,7 +18,7 @@
 
 ## Disclaimers  
 
-- **WIP WARNING!!!** — It is "dummy" upload. Required XXMI infrastructure undergoes pre-release process.
+- **WARNING** — If some **pre-EFMI** mods are not loading, it means that they are **not compatible**. **EFMI** is built with **performance** in mind, so it won't mindlessly calculate 50000 unneeded hashes per frame. Let 5-years old GIMI approach rest in piece, it's not applicable to modern games without huge performance impact (of up to 50% FPS).
 
 ## Features
 
@@ -53,10 +53,9 @@ To properly load newly installed mod without restarting the game:
 
 ## Mod User Hotkeys
 
-- **[F12]**: Toggle User Guide
-- **[F6]**: Toggle EFMI dependant mods
 - **[F10]**: Reload EFMI and Save Mod Settings
-- **[Alt]+[F12]**: Toggle 0.6.X Compatibility Mode
+- **[F11]**: Toggle EFMI-based mods
+- **[F12]**: Toggle User Guide
 - **[Ctrl]+[Alt]+[F10]**: Reset Mod Settings and Reload
 
 ## Mod Development
@@ -65,8 +64,8 @@ Links: [GitHub](https://github.com/SpectrumQT/EFMI-Tools) ([Mirror: Gamebanana](
 
 ## Mod Developer Hotkeys
 
-- **[F9]**: Disable EFMI while held
-- **[Ctrl]+[F9]**: Toggle Perfomance Monitor
+- **[Ctrl]+[F10]**: Toggle Perfomance Monitor
+- **[Ctrl]+[F11]**: Disable custom shaders while held
 - **[Ctrl]+[F12]**: Toggle Hunting Mode Guide
 - **Numpad [0]**: Toggle Hunting Mode (green text, make sure to **Enable Hunting** in **XXMI Launcher > Settings > EFMI** )
 
