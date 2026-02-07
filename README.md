@@ -74,7 +74,6 @@ Links: [GitHub](https://github.com/SpectrumQT/EFMI-Tools) ([Mirror: Gamebanana](
 - [EFMI GitHub (you're here)] ([Mirror: Gamebanana](https://gamebanana.com/tools/21846))
 - [XXMI Launcher GitHub](https://github.com/SpectrumQT/XXMI-Launcher)
 - [EFMI Tools GitHub](https://github.com/SpectrumQT/EFMI-Tools) ([Mirror: Gamebanana](https://gamebanana.com/tools/21847))
-- [EFMI Assets](https://github.com/SpectrumQT/EFMI-Assets)
 - [Arknights: Endfield Mods - Gamebanana](https://gamebanana.com/games/21842)
 - [Discord Modding Community](https://discord.com/invite/agmg)
 
