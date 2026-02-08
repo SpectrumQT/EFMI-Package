@@ -53,29 +53,29 @@ To properly load newly installed mod without restarting the game:
 
 ## Mod User Hotkeys
 
-- **[F10]**: Reload EFMI and Save Mod Settings
-- **[F11]**: Toggle EFMI-based mods
-- **[F12]**: Toggle User Guide
-- **[Ctrl]+[Alt]+[F10]**: Reset Mod Settings and Reload
+- **[F10]**: **Reload EFMI** and **Save Mod Settings**
+- **[F11]**: **Toggle Mods** display (of ones depending on EFMI's `vb0` or `ib` global triggers)
+- **[F12]**: **Toggle User Guide**
+- **[Ctrl]+[Alt]+[F10]**: **Reset Mod Settings** and **Reload EFMI**
 
 ## Mod Development
-To get into mod creation refer to the **EFMI Tools** and its [Modder Guide](https://github.com/SpectrumQT/EFMI-Tools/blob/main/guides/modder_guide.md):
-Links: [GitHub](https://github.com/SpectrumQT/EFMI-Tools) ([Mirror: Gamebanana](https://gamebanana.com/tools/21847))
+
+If you're willing (and dare) to jump into early days of **EFMI** mods creation, check out **[EFMI Tools](https://github.com/SpectrumQT/EFMI-Tools)** ([Mirror: GameBanana](https://gamebanana.com/tools/21847)) and its **[Modder Guide](https://github.com/SpectrumQT/EFMI-Tools/blob/main/guides/modder_guide.md)**:
 
 ## Mod Developer Hotkeys
 
-- **[Ctrl]+[F10]**: Toggle Perfomance Monitor
-- **[Ctrl]+[F11]**: Disable custom shaders while held
-- **[Ctrl]+[F12]**: Toggle Hunting Mode Guide
-- **Numpad [0]**: Toggle Hunting Mode (green text, make sure to **Enable Hunting** in **XXMI Launcher > Settings > EFMI** )
+- **[Ctrl]+[F10]**: **Toggle Perfomance Monitor**
+- **[Ctrl]+[F11]**: **Disable Custom Shaders** (while held)
+- **[Ctrl]+[F12]**: **Toggle Hunting Mode Guide**
+- **Numpad [0]**: **Toggle Hunting Mode** (green text, make sure to **Enable Hunting** in **XXMI Launcher > Settings > EFMI** )
 
 ## Resources
 
-- [EFMI GitHub (you're here)] ([Mirror: Gamebanana](https://gamebanana.com/tools/21846))
+- [EFMI GitHub (you're here)] ([Mirror: GameBanana](https://gamebanana.com/tools/21846))
+- [EFMI Tools GitHub](https://github.com/SpectrumQT/EFMI-Tools) ([Mirror: GameBanana](https://gamebanana.com/tools/21847))
+- [Arknights: Endfield Mods - GameBanana](https://gamebanana.com/games/21842)
 - [XXMI Launcher GitHub](https://github.com/SpectrumQT/XXMI-Launcher)
-- [EFMI Tools GitHub](https://github.com/SpectrumQT/EFMI-Tools) ([Mirror: Gamebanana](https://gamebanana.com/tools/21847))
-- [Arknights: Endfield Mods - Gamebanana](https://gamebanana.com/games/21842)
-- [Discord Modding Community](https://discord.com/invite/agmg)
+- [AGMF Discord Modding Community](https://discord.com/invite/agmf)
 
 ## Credits
 
