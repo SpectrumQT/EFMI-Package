@@ -10,8 +10,9 @@ Hunting Mode Hotkeys (NumPad):
 Hint: Lower resolution to lower framedump size
 
 Buffer Hunting (NumPad):
-Cycle VB (Vertex Buffers): Prev: [/], Next: [*], Copy Hash: [-]
 Cycle IB (Index Buffers): Prev: [7], Next: [8], Copy Hash: [9]
+Cycle VB (Vertex Buffers): Prev: [/], Next: [*], Copy Hash: [-]
+Cycle VB Slot (from -1 to 31): Prev: [Enter]+[/], Next: [Enter]+[*]
 
 Shader Hunting (NumPad):
 Cycle VS (Vertex Shaders): Prev: [4], Next: [5], Copy Hash: [6]
