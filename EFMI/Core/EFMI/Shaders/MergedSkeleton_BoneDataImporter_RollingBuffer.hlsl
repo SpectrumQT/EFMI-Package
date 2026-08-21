@@ -25,8 +25,8 @@ cbuffer cb0 : register(b0)
     uint4 InstanceConfigCB[16];
 }
 
-Buffer<float4> ComponentBoneMatrices   : register(t0);
-Buffer<uint> OriginalComponentLODRemap : register(t1);
+StructuredBuffer<float4> ComponentBoneMatrices : register(t0);
+Buffer<uint> OriginalComponentLODRemap         : register(t1);
 
 RWBuffer<float4> MergedSkeletonRW : register(u0);
 // RWBuffer<float4> DebugRW : register(u7);
