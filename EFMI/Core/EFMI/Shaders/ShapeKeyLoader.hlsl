@@ -39,7 +39,8 @@ void main(uint3 vThreadID : SV_DispatchThreadID, uint3 vThreadIDInGroup : SV_Gro
     uint4 offsets = ShapeKeyBatchConfigs[batch_config_offset + 1 + shapekey_index]; // ShapeKeyBatchConfigRW[shapekey_index]
 
     // Load shape key values.
-    float4 values = asfloat(ShapeKeyValuesRW[shapekey_index]); // ShapeKeyBatchConfigRW[32 + shapekey_index]
+    uint shapekey_values_offset = (uint)ShapeKeyBatchID * 32;
+    float4 values = asfloat(ShapeKeyValuesRW[shapekey_values_offset + shapekey_index]); // ShapeKeyBatchConfigRW[32 + shapekey_index]
 
     // Expand vectors into scalar shared-memory arrays.
     [unroll]
