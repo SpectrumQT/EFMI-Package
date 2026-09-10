@@ -25,7 +25,7 @@ cbuffer cb0 : register(b0)
 
 Buffer<uint> OriginalComponentLODRemap : register(t1);
 
-RWBuffer<float4> MergedSkeletonRW : register(u0);
+RWStructuredBuffer<float4> MergedSkeletonRW : register(u0);
 // RWBuffer<float4> DebugRW : register(u7);
 
 

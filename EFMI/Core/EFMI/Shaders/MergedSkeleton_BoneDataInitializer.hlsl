@@ -7,7 +7,7 @@
 
 Texture1D<float4> IniParams : register(t120);
 
-RWBuffer<float4> MergedSkeletonRW : register(u0);
+RWStructuredBuffer<float4> MergedSkeletonRW : register(u0);
 // RWBuffer<float4> DebugRW : register(u7);
 
 [numthreads(64,1,1)]
